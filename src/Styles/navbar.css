@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.amber.lighten-4 {
+  background-color: #ffecb3 !important;
+}
+
+.navbar__container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar__hamburgerButton {
+  display: none;
+}
