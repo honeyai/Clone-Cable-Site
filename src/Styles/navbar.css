@@ -17,6 +17,14 @@
   margin-left: auto;
 }
 
+.navbar__Brand {
+  display: inline-block;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-right: 1rem;
+  
+}
+
 .navbar__hamburgerButton {
   display: none;
 }

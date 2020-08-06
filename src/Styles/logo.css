@@ -1,4 +1,5 @@
-.logoPaths {
-  fill:#f7cd0c;
-  fill-opacity:1;
+.logoSize {
+  /* border: olive solid; */
+  width: 15rem;
+  height: auto;
 }
