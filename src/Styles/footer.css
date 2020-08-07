@@ -1,0 +1,20 @@
+.footer__wrapper {
+  display: grid;
+  width: 100vw;
+  height:100vh;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  background-color: inherit;
+}
+
+.footer__Header {
+  border: lawngreen solid;
+  /* width: 100%; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #f7cd32;
+  text-transform: uppercase;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 2/3;
+  background-color: inherit;
+}
