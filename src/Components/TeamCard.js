@@ -1,7 +1,8 @@
 import React from "react";
 import { Card, CardMedia, CardContent, Typography } from "@material-ui/core";
+import { MDBIcon } from "mdbreact";
 
-function TeamCard({cardId, contentId, imgId, image, role, memberName, roleStyle, memberStyle}) {
+function TeamCard({cardId, contentId, imgId, image, role, memberName, roleStyle, memberStyle, github}) {
   return (
     <Card id={cardId}>
       <CardContent id={contentId}>
@@ -10,6 +11,7 @@ function TeamCard({cardId, contentId, imgId, image, role, memberName, roleStyle,
           image={image}
         />
         <Typography
+          id={memberStyle}
           variant="overline"
           display="block" 
           gutterBottom
@@ -24,6 +26,14 @@ function TeamCard({cardId, contentId, imgId, image, role, memberName, roleStyle,
         >
           {role}
         </Typography>
+        <div className="socialLinks">
+          <a href={github}><MDBIcon icon="github-alt" /></a>
+          <a href="https://github.com/BennoCraft"><MDBIcon fab icon="github" /></a>
+          <a href="https://www.youtube.com/channel/UCQwyx88uCtoqO31tymn2mPg"><MDBIcon fab icon="youtube" /></a>
+          <a href="https://www.reddit.com/user/Yeet_the_brick"><MDBIcon fab icon="reddit" /></a>
+          <a href="https://twitter.com/Em0Cracker"><MDBIcon fab icon="twitter" /></a>
+          <a href="http://www.bennocraft.net/#!/"><MDBIcon icon="globe" /></a>
+        </div>
       </CardContent>
     </Card>
   );

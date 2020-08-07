@@ -16,8 +16,20 @@ const Footer = () => {
         imgId="footer__img"
         image={require("../Assets/bubbles.png")}
         memberName="Bubbles"
+        memberStyle="footer__member"
         roleStyle="footer__role"
         role="Web and Bot Developer"
+        github="https://github.com/BennoCraft"
+      />
+      <TeamCard
+        cardId="footer__TeamCardHoneyes"
+        contentId="footer__content"
+        imgId="footer__img"
+        image={require("../Assets/honeyes.png")}
+        memberName="Honeyes"
+        memberStyle="footer__member"
+        roleStyle="footer__role"
+        role="Web Developer"
       />
       <div className="footer__copyright"> Copyright © Cable Development Team - 2020 </div>
     </div>

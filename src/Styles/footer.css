@@ -7,8 +7,7 @@
 }
 
 .footer__Header {
-  border: lawngreen solid;
-  /* width: 100%; */
+  /* border: lawngreen solid; */
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   color: #f7cd32;
@@ -28,17 +27,25 @@
 }
 
 #footer__img {
-  border: red solid;
+  /* border: red solid; */
   width: 10rem;
   height: 10rem;
+  border-radius: 50%;
 }
 
 #footer__TeamCardBubbles {
-  border: lawngreen solid;
+  /* border: lawngreen solid; */
   color:#a6e2e1ff;
   background-color: inherit;
   grid-row: 2;
   grid-column: 2;
+}
+
+#footer__TeamCardHoneyes {
+  color:#a6e2e1ff;
+  background-color: inherit;
+  grid-row: 2;
+  grid-column: 3;
 }
 
 .footer__copyright {
@@ -51,4 +58,13 @@
 
 #footer__role {
   font-style: italic;
+}
+
+#footer__member {
+  padding: 0.5rem;
+}
+
+.socialLinks {
+  /* border: red solid; */
+  padding: 0.5rem;
 }
