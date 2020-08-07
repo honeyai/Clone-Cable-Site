@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./Home";
 import PlaceHolder from "./PlaceHolder";
-import { Switch } from "react-router-dom";
+import { Switch, Link } from "react-router-dom";
 import Logo from "./Logo";
 
 import "../Styles/navbar.css";
@@ -23,7 +23,7 @@ function Navbar() {
         <MDBNavbar className="navbar">
           <MDBContainer className="navbar__container">
             <MDBNavbarBrand className="navbar__Brand">
-              <Logo />
+              <Link to="/"> <Logo /> </Link>
             </MDBNavbarBrand>
             <MDBNavbarNav className="navbar__LinkContainer">
               <MDBNavItem className="navbar__Link">
