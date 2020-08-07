@@ -11,11 +11,12 @@ const Footer = () => {
         title="Meet our team"
       />
       <TeamCard 
-        cardId="footer__TeamCard"
+        cardId="footer__TeamCardBubbles"
         contentId="footer__content"
         imgId="footer__img"
-        image="../Assets/bubbles.png"
+        image="/Users/Student_ga122/Desktop/Cable Site/Cable/src/Assets/bubbles.png"
       />
+      <div className="footer__copyright"> Copyright © Cable Development Team - 2020 </div>
     </div>
   );
 };

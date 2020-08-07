@@ -14,6 +14,7 @@ import {
   MDBNavbarBrand,
   MDBNavbarNav,
 } from "mdbreact";
+import Footer from "./Footer";
 
 function Navbar() {
   return (
@@ -39,6 +40,7 @@ function Navbar() {
         <Route exact path="/" component={Home} />
         <Route path="/NewPage" component={PlaceHolder} />
       </Switch>
+      <Footer />
     </Router>
   );
 }
