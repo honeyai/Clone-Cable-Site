@@ -1,7 +1,7 @@
 import React from "react";
-import { Card, CardMedia, CardContent } from "@material-ui/core";
+import { Card, CardMedia, CardContent, Typography } from "@material-ui/core";
 
-function TeamCard({cardId, contentId, imgId, image}) {
+function TeamCard({cardId, contentId, imgId, image, role, memberName, roleStyle, memberStyle}) {
   return (
     <Card id={cardId}>
       <CardContent id={contentId}>
@@ -9,7 +9,21 @@ function TeamCard({cardId, contentId, imgId, image}) {
           id={imgId} 
           image={image}
         />
-        <Typography></Typography>
+        <Typography
+          variant="overline"
+          display="block" 
+          gutterBottom
+        >
+          {memberName}
+        </Typography>
+        <Typography
+          id={roleStyle}
+          variant="subtitle2"
+          display="block" 
+          gutterBottom
+        >
+          {role}
+        </Typography>
       </CardContent>
     </Card>
   );
