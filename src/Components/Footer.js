@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import '../Styles/footer.css'
 import TeamCard from './TeamCard';
+
 const Footer = () => {
   return (
     <div className="footer__wrapper">
@@ -10,7 +11,9 @@ const Footer = () => {
         title="Meet our team"
       />
       <TeamCard 
-        name="footer__TeamCard"
+        cardId="footer__TeamCard"
+        contentId="footer__content"
+        imgId="footer__img"
         image="../Assets/bubbles.png"
       />
     </div>

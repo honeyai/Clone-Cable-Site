@@ -1,12 +1,12 @@
 import React from "react";
 import { Card, CardMedia, CardContent } from "@material-ui/core";
 
-function TeamCard({name, imgClass, image}) {
+function TeamCard({cardId, contentId, imgId, image}) {
   return (
-    <Card className={name}>
-      <CardContent>
+    <Card id={cardId}>
+      <CardContent id={contentId}>
         <CardMedia
-          className={imgClass} 
+          id={imgId} 
           image={image}
         />
       </CardContent>
