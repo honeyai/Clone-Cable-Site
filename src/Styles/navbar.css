@@ -4,10 +4,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-}
-
-.amber.lighten-4 {
-  background-color: #ffecb3 !important;
+  background-color: inherit;
+  /* margin-left: 1rem; */
 }
 
 .navbar__container {
@@ -17,22 +15,36 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding-top: 1rem;
+
 }
 
 .navbar__Brand {
   display: inline-block;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  margin-right: 1rem;
-
+  margin-left: 2rem;
 }
 
 .navbar__LinkContainer {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin-right: 1rem;
 }
 
 .navbar__Link {
-  margin: 2rem;
+  margin-right: 2rem;
+  
+}
+
+#navbar__Link {
+  color: #f7cd32;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+#navbar__Link:hover {
+  color: #be9e2a;
 }

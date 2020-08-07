@@ -19,17 +19,17 @@ function Navbar() {
   return (
     <Router>
       <MDBContainer className="navbar__container navbar">
-        <MDBNavbar className="navbar" color="amber lighten-4" light>
+        <MDBNavbar className="navbar">
           <MDBContainer className="navbar__container">
             <MDBNavbarBrand className="navbar__Brand">
               <Logo />
             </MDBNavbarBrand>
             <MDBNavbarNav className="navbar__LinkContainer">
               <MDBNavItem className="navbar__Link">
-                <MDBNavLink to="/">Home</MDBNavLink>
+                <MDBNavLink id="navbar__Link" to="/">Home</MDBNavLink>
               </MDBNavItem>
               <MDBNavItem className="navbar__Link">
-                <MDBNavLink to="/NewPage">Link</MDBNavLink>
+                <MDBNavLink id="navbar__Link" to="/NewPage">Link</MDBNavLink>
               </MDBNavItem>
             </MDBNavbarNav>
           </MDBContainer>
