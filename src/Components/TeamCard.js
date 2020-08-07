@@ -9,6 +9,7 @@ function TeamCard({cardId, contentId, imgId, image}) {
           id={imgId} 
           image={image}
         />
+        <Typography></Typography>
       </CardContent>
     </Card>
   );

@@ -14,7 +14,7 @@ const Footer = () => {
         cardId="footer__TeamCardBubbles"
         contentId="footer__content"
         imgId="footer__img"
-        image="/Users/Student_ga122/Desktop/Cable Site/Cable/src/Assets/bubbles.png"
+        image={require("../Assets/bubbles.png")}
       />
       <div className="footer__copyright"> Copyright © Cable Development Team - 2020 </div>
     </div>
