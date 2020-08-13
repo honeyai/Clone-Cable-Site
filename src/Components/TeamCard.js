@@ -15,6 +15,10 @@ function TeamCard({
   roleStyle,
   memberStyle,
   github,
+  youtube,
+  reddit,
+  twitter,
+  site
 }) {
   return (
     <Card id={cardId}>
@@ -36,22 +40,22 @@ function TeamCard({
         >
           {role}
         </Typography>
-        <div className="socialLinks">
-          <a href={github}>
-          <FontAwesomeIcon icon={["fab", "github"]} />
+        <div className="teamCard__socialLinks">
+          <a href={github} id="teamCard__Link">
+          <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
           </a>
-          <a href="https://www.youtube.com/channel/UCQwyx88uCtoqO31tymn2mPg">
-          <FontAwesomeIcon icon={["fab", "youtube"]} />
+          <a href={youtube} id="teamCard__Link">
+          <FontAwesomeIcon icon={["fab", "youtube"]} size="lg" />
           </a>
-          <a href="https://www.reddit.com/user/Yeet_the_brick">
-          <FontAwesomeIcon icon={["fab", "reddit"]} />
+          <a href={reddit} id="teamCard__Link">
+          <FontAwesomeIcon icon={["fab", "reddit"]} size="lg" />
 
           </a>
-          <a href="https://twitter.com/Em0Cracker">
-          <FontAwesomeIcon icon={["fab", "twitter"]} />
+          <a href={twitter} id="teamCard__Link">
+          <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
           </a>
-          <a href="http://www.bennocraft.net/#!/">
-          <FontAwesomeIcon icon={["fas", "globe"]} />
+          <a href={site} id="teamCard__Link">
+          <FontAwesomeIcon icon={["fas", "globe"]} size="lg" />
           </a>
         </div>
       </CardContent>

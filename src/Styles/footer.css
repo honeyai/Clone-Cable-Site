@@ -67,13 +67,20 @@
 
 #footer__role {
   font-style: italic;
+  margin-bottom: 1rem;
 }
 
 #footer__member {
   padding: 0.5rem;
 }
 
-.socialLinks {
+.teamCard__socialLinks {
   /* border: red solid; */
   padding: 0.5rem;
 }
+
+#teamCard__Link {
+  margin: 1rem;
+  color: inherit
+}
+

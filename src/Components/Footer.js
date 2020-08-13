@@ -21,6 +21,10 @@ const Footer = () => {
           roleStyle="footer__role"
           role="Web and Bot Developer"
           github="https://github.com/BennoCraft"
+          youtube="https://www.youtube.com/channel/UCQwyx88uCtoqO31tymn2mPg"
+          reddit="https://www.reddit.com/user/Yeet_the_brick"
+          twitter="https://twitter.com/Em0Cracker"
+          site="http://www.bennocraft.net/#!/"
         />
         <TeamCard
           cardId="footer__TeamCardHoneyes"
