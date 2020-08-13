@@ -46,6 +46,16 @@ const Footer = () => {
           roleStyle="footer__role"
           role="Web Developer"
         />
+        <TeamCard
+          cardId="footer__TeamCardRicky"
+          contentId="footer__content"
+          imgId="footer__img"
+          image={require("../Assets/Ricky.webp")}
+          memberName="Ricky"
+          memberStyle="footer__member"
+          roleStyle="footer__role"
+          role="Bot Developer"
+        />
       </div>
       <div className="footer__copyright"> Copyright © Cable Development Team - 2020 </div>
     </div>

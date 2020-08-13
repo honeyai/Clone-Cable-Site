@@ -39,6 +39,7 @@
   grid-column: 1/2;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 #footer__TeamCardBubbles {
@@ -53,6 +54,10 @@
 }
 
 #footer__TeamCardJrock {
+  color:#a6e2e1ff;
+  background-color: inherit;
+}
+#footer__TeamCardRicky {
   color:#a6e2e1ff;
   background-color: inherit;
 }
@@ -80,7 +85,7 @@
 }
 
 #teamCard__Link {
-  margin: 1rem;
+  margin-left: 0.5rem;
   color: inherit
 }
 
