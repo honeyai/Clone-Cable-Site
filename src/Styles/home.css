@@ -1,0 +1,14 @@
+.home__Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.home__Tagline {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f7cd32;
+}
