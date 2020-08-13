@@ -2,7 +2,7 @@
   display: grid;
   width: 100vw;
   height:100vh;
-  grid-template-columns: fit-content(40%);
+  grid-template-columns: repeat(1fr);
   background-color: inherit;
 }
 
@@ -14,7 +14,7 @@
   text-transform: uppercase;
   text-align: center;
   grid-row: 1;
-  grid-column: 1/5;
+  grid-column: 1/2;
   background-color: inherit;
 }
 
@@ -34,26 +34,27 @@
   margin-bottom: 1rem;
 }
 
+.footer__teamContainer {
+  grid-row: 2;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #footer__TeamCardBubbles {
   /* border: lawngreen solid; */
   color:#a6e2e1ff;
   background-color: inherit;
-  grid-row: 2;
-  grid-column: 2;
 }
 
 #footer__TeamCardHoneyes {
   color:#a6e2e1ff;
   background-color: inherit;
-  grid-row: 2;
-  grid-column: 3;
 }
 
 #footer__TeamCardJrock {
   color:#a6e2e1ff;
   background-color: inherit;
-  grid-row: 2;
-  grid-column: 4;
 }
 
 .footer__copyright {
@@ -61,7 +62,7 @@
   text-align: center;
   color: #f7cd32;
   grid-row: 4;
-  grid-column: 1/5;
+  grid-column: 1/2;
 }
 
 #footer__role {
