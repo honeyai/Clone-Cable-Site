@@ -1,13 +1,5 @@
-.navbar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: inherit;
-  /* margin-left: 1rem; */
-}
-
 .navbar__container {
-  width: 100vw;
+  width: 99vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,6 +8,11 @@
   padding-top: 1rem;
 
 }
+
+.navbar {
+  background-color: inherit;
+}
+
 
 .navbar__Brand {
   display: inline-block;

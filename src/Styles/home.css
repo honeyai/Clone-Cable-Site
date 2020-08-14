@@ -1,14 +1,27 @@
 .home__Container {
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
 }
 
 .home__Tagline {
   font-family: Arial, Helvetica, sans-serif;
   color: #f7cd32;
+  padding: 1rem;
+}
+
+/* .home__Tag {
+  color: #fca12eff;
+} */
+
+.home__Text {
+  /* border: khaki solid; */
+  margin: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
