@@ -1,5 +1,5 @@
 .home__Container {
-  width: 100%;
+  width: 50%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,9 +19,10 @@
 
 .home__Text {
   /* border: khaki solid; */
-  margin: 12rem;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+

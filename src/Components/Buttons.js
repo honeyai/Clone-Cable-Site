@@ -1,9 +1,10 @@
 import React from 'react';
 import { Button, Typography } from '@material-ui/core';
+import '../Styles/buttons.css'
 
-const Button = ({content}) => {
+const Buttons = ({content, idName}) => {
   return (
-    <Button>
+    <Button id={idName}>
       <Typography variant="button" display="block" gutterBottom>
         {content}
       </Typography>
@@ -11,4 +12,4 @@ const Button = ({content}) => {
   );
 };
 
-export default Button;
+export default Buttons;

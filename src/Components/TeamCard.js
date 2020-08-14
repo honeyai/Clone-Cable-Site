@@ -1,9 +1,8 @@
 import React from "react";
 import { Card, CardMedia, CardContent, Typography } from "@material-ui/core";
-import { MDBIcon } from "mdbreact";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../fontawesome'
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../fontawesome";
+import "../Styles/teamCard.css";
 
 function TeamCard({
   cardId,
@@ -18,7 +17,7 @@ function TeamCard({
   youtube,
   reddit,
   twitter,
-  site
+  site,
 }) {
   return (
     <Card id={cardId}>
@@ -41,22 +40,35 @@ function TeamCard({
           {role}
         </Typography>
         <div className="teamCard__socialLinks">
-          <a href={github} id="teamCard__Link">
-          <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
-          </a>
-          <a href={youtube} id="teamCard__Link">
-          <FontAwesomeIcon icon={["fab", "youtube"]} size="lg" />
-          </a>
-          <a href={reddit} id="teamCard__Link">
-          <FontAwesomeIcon icon={["fab", "reddit"]} size="lg" />
+          {github ? (
+            <a href={github} id="teamCard__Link">
+              <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
+            </a>
+          ) : null}
 
-          </a>
-          <a href={twitter} id="teamCard__Link">
-          <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
-          </a>
-          <a href={site} id="teamCard__Link">
-          <FontAwesomeIcon icon={["fas", "globe"]} size="lg" />
-          </a>
+          {youtube ? (
+            <a href={youtube} id="teamCard__Link">
+              <FontAwesomeIcon icon={["fab", "youtube"]} size="lg" />
+            </a>
+          ) : null}
+
+          {reddit ? (
+            <a href={reddit} id="teamCard__Link">
+              <FontAwesomeIcon icon={["fab", "reddit"]} size="lg" />
+            </a>
+          ) : null}
+
+          {twitter ? (
+            <a href={twitter} id="teamCard__Link">
+              <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
+            </a>
+          ) : null}
+          
+          {site ? (
+            <a href={site} id="teamCard__Link">
+              <FontAwesomeIcon icon={["fas", "globe"]} size="lg" />
+            </a>
+          ) : null}
         </div>
       </CardContent>
     </Card>

@@ -35,6 +35,7 @@ const Footer = () => {
           memberStyle="footer__member"
           roleStyle="footer__role"
           role="Web Developer"
+          github="https://github.com/honeyai"
         />
         <TeamCard
           cardId="footer__TeamCardJrock"
@@ -45,6 +46,7 @@ const Footer = () => {
           memberStyle="footer__member"
           roleStyle="footer__role"
           role="Web Developer"
+          github="https://github.com/SunShineOneX"
         />
         <TeamCard
           cardId="footer__TeamCardRicky"
@@ -55,6 +57,7 @@ const Footer = () => {
           memberStyle="footer__member"
           roleStyle="footer__role"
           role="Bot Developer"
+          site="https://linktr.ee/DesignsByRicky"
         />
       </div>
       <div className="footer__copyright"> Copyright © Cable Development Team - 2020 </div>

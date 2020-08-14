@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar'
 
 function App() {
   return (
-    <div>
+    <div className="App__wrapper">
       {/* <h1>Rename Me</h1> */}
       <Navbar />
     </div>
