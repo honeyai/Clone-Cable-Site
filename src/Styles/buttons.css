@@ -1,4 +1,21 @@
-.home__AddtoServer {
-  background-color: #a6e2e1ff;
-  color: inherit;
+#home__AddtoServer {
+  background-color: #F2A033;
+  color: white;
+  
+}
+
+#home__AddtoServer:hover {
+  background-color: #e79428;
+  /* color: rgb(0, 0, 0); */
+}
+
+#home__ButtonText {
+  display: inline-flex;
+  vertical-align: middle;
+  /* align-items: baseline; */
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* padding-bottom: 0.05rem; */
 }
