@@ -2,6 +2,8 @@ import React from 'react';
 import {Typography} from '@material-ui/core';
 import '../Styles/home.css';
 import Buttons from "./Buttons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../fontawesome";
 
 const Home = () => {
   return (
@@ -12,8 +14,11 @@ const Home = () => {
       </div>
       <div className="home__Buttons">
         <Buttons 
+          link="/api/discord/login"
           idName="home__AddtoServer"
-          content="Add to your server"
+          textId="home__ButtonText"
+          content="Add to   "
+          icon={<FontAwesomeIcon icon={["fab", "discord"]} size="2x" id="home__discord"/>}
         />
       </div>
     </div>

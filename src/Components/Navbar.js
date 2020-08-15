@@ -32,6 +32,9 @@ function Navbar() {
               <MDBNavItem className="navbar__Link">
                 <MDBNavLink id="navbar__Link" to="/NewPage">Link</MDBNavLink>
               </MDBNavItem>
+              {/* <MDBNavItem className="navbar__Link">
+                <MDBNavLink id="navbar__Link" to="/Login">Login</MDBNavLink>
+              </MDBNavItem> */}
             </MDBNavbarNav>
           </MDBContainer>
         </MDBNavbar>
@@ -39,6 +42,7 @@ function Navbar() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/NewPage" component={PlaceHolder} />
+        {/* <Route path="/Login" component={PlaceHolder} /> */}
       </Switch>
       <Footer />
     </Router>

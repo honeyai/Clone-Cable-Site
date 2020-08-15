@@ -2,13 +2,16 @@ import React from 'react';
 import { Button, Typography } from '@material-ui/core';
 import '../Styles/buttons.css'
 
-const Buttons = ({content, idName}) => {
+
+const Buttons = ({content, idName, textId, icon, link}) => {
   return (
-    <Button id={idName}>
-      <Typography variant="button" display="block" gutterBottom>
-        {content}
-      </Typography>
-    </Button>
+    <a href={link}>
+      <Button id={idName} >
+        <Typography id={textId}variant="button" display="block" gutterBottom>
+          {content}{icon}
+        </Typography>
+      </Button>
+    </a>
   );
 };
 
