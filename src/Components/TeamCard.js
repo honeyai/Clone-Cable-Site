@@ -41,31 +41,31 @@ function TeamCard({
         </Typography>
         <div className="teamCard__socialLinks">
           {github ? (
-            <a href={github} id="teamCard__Link">
+            <a target="_blank" href={github} id="teamCard__Link">
               <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
             </a>
           ) : null}
 
           {youtube ? (
-            <a href={youtube} id="teamCard__Link">
+            <a target="_blank" href={youtube} id="teamCard__Link">
               <FontAwesomeIcon icon={["fab", "youtube"]} size="lg" />
             </a>
           ) : null}
 
           {reddit ? (
-            <a href={reddit} id="teamCard__Link">
+            <a target="_blank" href={reddit} id="teamCard__Link">
               <FontAwesomeIcon icon={["fab", "reddit"]} size="lg" />
             </a>
           ) : null}
 
           {twitter ? (
-            <a href={twitter} id="teamCard__Link">
+            <a target="_blank" href={twitter} id="teamCard__Link">
               <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
             </a>
           ) : null}
           
           {site ? (
-            <a href={site} id="teamCard__Link">
+            <a target="_blank" href={site} id="teamCard__Link">
               <FontAwesomeIcon icon={["fas", "globe"]} size="lg" />
             </a>
           ) : null}
